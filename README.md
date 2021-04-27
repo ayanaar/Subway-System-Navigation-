@@ -44,8 +44,8 @@ After the path is found, the user can click the "MAP VIEW” button, which will 
 
 In order to display how we can generalize our implementation of finding the shortest path, we applied our project to another subway system: the Kobe subway system in Japan. To see this visualization, uncomment the last two lines in the main file "main.py” (there is a comment in all caps in the file that gives the same instructions). Remember to comment out the lines related to the Vancouver SkyTrain subway system visualization before running the main file. The same instructions as for the Vancouver system apply here. The only difference is that this is another subway system.
 **
-**Refer to the project_report.pdf for screenshots on what the visualization should look like. ****
-
+Refer to the project_report.pdf for screenshots on what the visualization should look like.
+**
 **Discussion**
 
 We created this project to answer the research question of “How can we simplify the subway trip planning process of a subway user?”. A very important part of a user’s subway route is what gets them to their destination in the shortest amount of time. Allowing them to determine the shortest path easily reduces the amount of time they have to look at the map and go through each station that is in a potential path. While not having access to datasets with times between stations, we acknowledged this aspect by taking the shortest path according to the number of stations visited. Finding the shortest path required the use of the graph traversal approach taught in lecture (Liu). We recursively find all possible paths between two stations, and then choose the path with the least number of stations.
