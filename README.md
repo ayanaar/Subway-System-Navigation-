@@ -43,8 +43,8 @@ Run the main.py folder to see the visualization pop-up. You should see the pygam
 After the path is found, the user can click the "MAP VIEW” button, which will open a real plotly map on the users’ browser. This will display the user’s shortest path (note that if no path was found, this button cannot be pressed). The user can click the “RESET” button at any point in time to reset the subway system. If there is any confusion about which buttons are allowed to be pressed and which aren’t, note that the buttons will turn blue when they are allowed to be pressed and are coloured grey otherwise. 
 
 In order to display how we can generalize our implementation of finding the shortest path, we applied our project to another subway system: the Kobe subway system in Japan. To see this visualization, uncomment the last two lines in the main file "main.py” (there is a comment in all caps in the file that gives the same instructions). Remember to comment out the lines related to the Vancouver SkyTrain subway system visualization before running the main file. The same instructions as for the Vancouver system apply here. The only difference is that this is another subway system.
-
-**Refer to the project_report.pdf for screenshots on what the visualization should look like. **
+**
+**Refer to the project_report.pdf for screenshots on what the visualization should look like. ****
 
 **Discussion**
 
@@ -62,6 +62,6 @@ One way to expand on this project would be to extend it to not just subway syste
 
 In summary, the main objective of our project was to simplify the user’s subway experience to make complex subway systems easier to navigate. We achieved this by including multiple different features in our project such as finding the shortest path between stations and avoiding certain stations. We displayed these features in an interactive program that allowed the user to plan their subway route. There were some limitations in our project, but even with these limitations, we were able to successfully reach our goal. There are also many other next steps outlined in this section to further enhance the subway experience of a user.
 
-**Refer to the project_report.pdf for a full list of references**
+**Refer to the project_report.pdf for a full list of references.**
 
 
